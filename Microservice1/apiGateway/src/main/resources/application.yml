@@ -1,0 +1,12 @@
+#spring:
+  #cloud:
+    #gateway:
+      #routes:
+        #-id: USERSERVICE
+       # uri: lb://USERSERVICE
+        #predicates:
+         # - path-/user/**
+        #-id: CONTACTSERVICE
+        #uri: lb://CONTACTSERVICE
+        #predicates:
+          #- path-/contact/**
